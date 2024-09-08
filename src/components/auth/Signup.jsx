@@ -14,7 +14,6 @@ import { useDispatch , useSelector } from "react-redux";
 import { Loader2 } from "lucide-react";
 
 
-axios.defaults.withCredentials = true;
 
 const Signup = () => {
   const [input , setInput] = useState({
