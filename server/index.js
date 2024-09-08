@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://career-nexus.vercel.app/",
+    origin:['https://career-nexus.vercel.app', 'https://vercel.com/divyanshu-grovers-projects/career-nexus'],
     methods:['GET', 'POST', 'PUT', 'DELETE'],
     credentials:true
 };
