@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-  origin: '*', // This will allow requests from any origin
+  origin: "https://career-nexus.vercel.app", // This will allow requests from any origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 };
