@@ -57,6 +57,7 @@ const Login = () => {
   }
 }
 
+  axios.defaults.withCredentials = true;
   //Agar hm already login hai and fir bhi login me jarahe hai toh yeh nhi hona chahie
    useEffect(()=>{
     if(user){
