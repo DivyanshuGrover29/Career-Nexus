@@ -77,7 +77,7 @@ const Signup = () => {
           dispatch(setLoading(false));
       }
   }
-  axios.defaults.withCredentials = true;
+  
   useEffect(()=>{
     if(user){
         navigate("/");//then navigate to home page
