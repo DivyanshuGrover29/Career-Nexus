@@ -20,7 +20,7 @@ const JobsCard = ({job}) => {
     const timeDifference = currentTime - createdAt;
     return Math.floor(timeDifference/(1000*24*60*60));//day time written
 }
-axios.defaults.withCredentials = true;
+
 // Example of fetching companies
 const fetchCompanies = () => async (dispatch) => {
   try {
