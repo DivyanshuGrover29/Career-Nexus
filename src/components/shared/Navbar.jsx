@@ -24,7 +24,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  axios.defaults.withCredentials = true;
+
   //for logout the profile
   const logoutHandler = async () => {
     try {
